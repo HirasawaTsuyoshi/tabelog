@@ -1,4 +1,32 @@
 Rails.application.routes.draw do
+  get 'users/index'
+
+  get 'users/show'
+
+  get 'users/new'
+
+  get 'users/create'
+
+  get 'users/edit'
+
+  get 'users/update'
+
+  get 'users/destroy'
+
+  get 'restaurants/index'
+
+  get 'restaurants/show'
+
+  get 'restaurants/new'
+
+  get 'restaurants/create'
+
+  get 'restaurants/edit'
+
+  get 'restaurants/update'
+
+  get 'restaurants/destroy'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
